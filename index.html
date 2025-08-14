@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbería Mendoza</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="loader.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero fade-in">
+    <img src="assets/logo.png" alt="Logo Barbería Mendoza" class="logo" />
+    <h1>Reservá tu turno en Barbería Mendoza</h1>
+    <p>Estilo, precisión y atención personalizada. ¡Tu look empieza aquí!</p>
+    <a href="#formulario" class="btn">Reservar ahora</a>
+  </header>
+
+  <!-- Servicios -->
+  <section class="servicios fade-in">
+    <h2>Servicios destacados</h2>
+    <ul>
+      <li>Corte clásico y moderno</li>
+      <li>Afeitado profesional</li>
+      <li>Perfilado de barba</li>
+    </ul>
+  </section>
+
+  <!-- Formulario -->
+  <section id="formulario" class="formulario fade-in">
+    <h2>Reservá tu turno</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required />
+      <input type="date" required />
+      <input type="time" required />
+      <select required>
+        <option value="">Seleccioná un servicio</option>
+        <option value="corte">Corte</option>
+        <option value="afeitado">Afeitado</option>
+        <option value="barba">Perfilado de barba</option>
+      </select>
+      <button type="submit">Enviar reserva</button>
+    </form>
+  </section>
+
+  <!-- WhatsApp CTA -->
+    <section class="whatsapp fade-in">
+    <p>¿Preferís escribirnos directo?</p>
+    <a href="https://wa.me/549XXXXXXXXXX" target="_blank" class="btn-whatsapp">
+        <img src="assets/icono-whatsapp-dorado.svg" alt="WhatsApp dorado" />
+        Consultar por WhatsApp
+    </a>
+    </section>
+
+
+  <!-- Footer -->
+  <footer class="footer fade-in">
+    <p>&copy; 2025 Barbería Mendoza. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="loader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
