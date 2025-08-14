@@ -19,7 +19,8 @@ Accedé a la versión publicada en GitHub Pages:
 
 ```bash
 git clone https://github.com/lucasgallardo/barberia-mendoza.git
+```
 
-📌 Autor
+## 📌 Autor
 
 Lucas Gallardo Full Stack Developer | Especialista en landing pages y automatización
